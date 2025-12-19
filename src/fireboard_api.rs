@@ -40,7 +40,7 @@ pub struct FireboardApiDevice {
     pub title: String,
     pub hardware_id: String,
     pub version: String,
-    pub channel_count: usize,
+    pub channel_count: Option<usize>,
     pub degreetype: DegreeType,
     pub model: String,
     pub channels: Vec<FireboardDeviceChannel>,
